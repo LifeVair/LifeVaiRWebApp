@@ -1,0 +1,32 @@
+*{
+    font-style: normal;
+    font-family: Lato, monospace;
+}
+#mode_selection{
+    font-size: 24px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px  auto ;
+}
+
+header{
+    display: flex;
+    padding: 20px;
+}
+
+#mode_selection{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.button_container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.game_mode_buttons{
+    padding: 12px 24px;
+}
+
