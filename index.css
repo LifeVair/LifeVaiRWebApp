@@ -1,20 +1,25 @@
 *{
     font-style: normal;
     font-family: Lato, monospace;
+    color: white;
 }
 #mode_selection{
     font-size: 24px;
 }
 body{
     display: flex;
+    height: 100vh;
     justify-content: center;
     flex-direction: column;
-    margin: 20px  auto ;
+    margin: 0;
+    background-image: url(station-min.png);
+    backdrop-filter: blur(20px) brightness(30%);
 }
 
 header{
     display: flex;
-    padding: 20px;
+    padding: 8px 24px;
+    font-size: 36px;
 }
 
 #mode_selection{
@@ -27,6 +32,15 @@ header{
     justify-content: space-evenly;
 }
 .game_mode_buttons{
-    padding: 12px 24px;
+    font-size: 18px;
+    padding: 24px 48px;
+    border-radius: 16px;
+    background-color: #010144;
+    border: #010144 3px solid;
+}
+.game_mode_buttons:hover{
+    transition: border .2s;
+    cursor: pointer;
+    border: white 3px solid;
 }
 
