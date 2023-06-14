@@ -1,44 +1,58 @@
-*{
+* {
     font-style: normal;
     font-family: Lato, monospace;
     color: white;
 }
-#mode_selection{
+
+#mode_selection {
     font-size: 24px;
 }
-body{
+
+section {
+    margin: 24px 0;
+}
+
+body {
     display: flex;
     height: 100vh;
-    justify-content: center;
     flex-direction: column;
     margin: 0;
     background-image: url(station-min.png);
     backdrop-filter: blur(20px) brightness(30%);
 }
 
-header{
+header {
     display: flex;
     padding: 8px 24px;
     font-size: 36px;
 }
 
-#mode_selection{
+#game_selection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mode_selection {
     display: flex;
     flex-direction: column;
     margin: auto;
 }
-.button_container{
+
+.button_container {
     display: flex;
     justify-content: space-evenly;
 }
-.game_mode_buttons{
+
+.game_mode_buttons {
     font-size: 18px;
     padding: 24px 48px;
     border-radius: 16px;
     background-color: #010144;
     border: #010144 3px solid;
 }
-.game_mode_buttons:hover{
+
+.game_mode_buttons:hover {
     transition: border .2s;
     cursor: pointer;
     border: white 3px solid;
